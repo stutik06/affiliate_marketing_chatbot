@@ -12,14 +12,13 @@ A **Streamlit-powered GenAI chatbot** designed to explain **why creatives are cr
 | UI               | Streamlit                            |
 | LLM              | OpenAI GPT-4o-mini via OpenRouter    |
 | Auth             | bcrypt-based login                   |
-| Database         | PostgreSQL                           |
+| Database         | SQLite                               |
 | RL Feedback Loop | Rule-based prompt adjustment         |
 | Deployment       | Hugging Face Spaces                  |
 
 ---
 
 ## 🚀 Features
-
 - 🧑‍💼 **User Signup/Login** with password hashing
 - 💬 **Conversational UI** via Streamlit
 - 💾 **Chat history** storage with timestamps
@@ -39,3 +38,7 @@ cd affiliate-chatbot
 python -m venv venv
 venv\Scripts\activate   # or source venv/bin/activate (Linux/macOS)
 pip install -r requirements.txt
+
+
+
+
